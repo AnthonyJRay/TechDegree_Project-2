@@ -1,5 +1,5 @@
 * {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Ubuntu', serif;
     box-sizing: border-box;
 }
 
@@ -15,27 +15,11 @@ body {
 
 ul {
     list-style-type: none;
-    max-width: 100%;
     padding: 0;
 }
 
 .nav-links {
     color:#F4A950;
-}
-
-h1 {
-    text-shadow: 0 1px 0 rgb(63, 56, 56),
-               0 2px 0 #4e4545,
-               0 3px 0 rgb(53, 46, 46),
-               0 4px 0 #4d4444,
-               0 5px 0 rgb(37, 29, 29),
-               0 6px 1px rgba(0,0,0,.1),
-               0 0 5px rgba(0,0,0,.1),
-               0 1px 3px rgba(0,0,0,.3),
-               0 3px 5px rgba(0,0,0,.2),
-               0 5px 10px rgba(0,0,0,.25),
-               0 10px 10px rgba(0,0,0,.2),
-               0 20px 20px rgba(0,0,0,.15);
 }
 
 a:hover {
@@ -49,6 +33,7 @@ a:visited {
 h1{
     font-size: 2.3em;
     text-align: center;
+    font-family: 'Playfair Display', serif;
 }
 
 header {
@@ -57,12 +42,12 @@ header {
 
 h2,h3,h4{
     text-align: center;
+    font-family: 'Playfair Display', serif;
     color: #F4A950;
     background: #161B21;
     margin: 20px auto;
     border: solid 1px  rgb(19, 24, 29);
     border-radius: 2px;
-    max-width: 40%;
     }
 
 li {
@@ -72,7 +57,6 @@ li {
     margin: 5px auto;
     border: solid 1px  rgb(19, 24, 29);
     border-radius: 5px;
-    max-width:75%;
 }
 
 li:hover {
@@ -91,11 +75,11 @@ img {
 
 p {
     text-align: center;
-    max-width: 100%;
     padding: 0 5px;
     margin: 0 10px;
     font-family: "ubuntu";
-    font-size: .9em;
+    font-size: 1.2em;
+    max-width: 100%
 }
 
 
@@ -133,6 +117,10 @@ footer {
 
 #bottom-home:hover {
     transform: scale(1.1);
+}
+
+.bottom-nav {
+    display: none;
 }
 
 /* Media Queries (768 px) */
@@ -194,6 +182,16 @@ footer{
 
 #email {
     padding-bottom: 20px;
+}
+
+#bottom-home {
+    display: none;
+}
+
+.bottom-nav {
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
 }
 }
 
